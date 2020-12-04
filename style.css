@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(6, 240, 240);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color:#400080;
+    font-family:'Big Shoulders Stencil Display';
+}
+
+.logo{
+    color: chocolate;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size:20px;
+}
+
+.nav-links{
+    display:flex;
+    justify-content: space-around;
+    width:40%
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links a{
+    color: chocolate;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 20px;
+}
+
+.portfolio{
+    background-color:#126d62;
+    color:#fff;
+}
+
+.portfolio_container_left{
+    display:flex;
+
+}
+.portfolio_container_right H2{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+
+}
+
+.portfolio_container_right p{
+    display:flex;
+    flex-wrap: wrap;
+    text-indent: 0px;
+    text-align: center
+    
+}
+
+.portfolio_container li{
+    text-align:center;
+    list-style-type:none;
+}
+
+a{
+    color: rgb(250, 248, 248);
+}
+
+.portfolio_projects{
+    display: flex;
+    flex-direction: row
+
+*{
+    box-sizing:border-box
+
+
+}
+    
+
+
